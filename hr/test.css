@@ -1,0 +1,33 @@
+
+
+.d1{
+    
+    width: 25%;
+    height: 25%;
+    padding: 5px;
+}
+#dd1{
+    background-color: rgb(217, 216, 226);
+}
+input[type=text], input[type=password],input[type=file] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    
+    display: inline-block;
+    box-shadow: 4px 4px;
+    box-shadow: dimgray;
+    border: none;
+    box-sizing:unset;
+    border-radius: 30px;
+    background: #f1f1f1;
+  }
+input[type=text]:focus, input[type=password]:focus, input[type=file]:focus{
+    background-color: #ddd;
+    outline: none;
+  }
+#dd2{
+    background-color: rgb(226, 221, 221);
+    padding: 1px;
+    color: darkolivegreen;
+}

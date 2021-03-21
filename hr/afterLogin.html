@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Your Detail </title>
+        <link rel="stylesheet" href="test.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    </head>
+    <body>
+        <div>
+
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-left" >
+                <img src="https://github.com/abhishekkumar98/Hr-recruitment-/blob/master/infinite.jpg?raw=true" width="100px" height="75px">
+                
+                <ul class="navbar-nav">
+                    
+                  <li class="nav-item" >
+                    <a class="nav-link" href="home.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="careers.html">Career</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                </ul>
+              </nav>
+        </div>
+        <div class=" row row-cols-2">
+        <div id="dd1" class="col">
+            <div class="media border p-3 " >
+                <img src="https://github.com/abhishekkumar98/Hr-recruitment-/blob/master/c3.jpg?raw=true" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:40%;">
+                <div class="media-body">
+                  <h4>Jobs Openning <small><i>Posted on February 19, 2021</i></small></h4>
+                  <p><b>IBM CLOUD</b></p>
+                </div>
+                </div>
+                <div class="col">
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+                        <ul class="carousel-indicators">
+                          <li data-target="#demo" data-slide-to="0" class="active"></li>
+                          <li data-target="#demo" data-slide-to="1"></li>
+                          <li data-target="#demo" data-slide-to="2"></li>
+                        </ul>
+                   <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="https://github.com/abhishekkumar98/Hr-recruitment-/blob/master/c3.jpg?raw=true" alt="Los Angeles"width="1300px" height="300px">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://github.com/abhishekkumar98/Hr-recruitment-/blob/master/c2.jpg?raw=true" alt="Chicago"width="1300px" height="300px">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://www.infinite.com/storage/app/media/Home/01.jpg" alt="New York" width="1300px" height="300px">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://www.infinite.com/storage/app/media/Home/05.jpg" alt="New York"width="1300px" height="300px">
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                      </a>
+                      <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                      </a>
+                    
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="media border p-3 " >
+                        <img src="https://github.com/abhishekkumar98/Hr-recruitment-/blob/master/c3.jpg?raw=true" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:40%;">
+                        <div class="media-body">
+                          <h4>Jobs Openning <small><i>Posted on March 19, 2021</i></small></h4>
+                          <p><b>Big Data</b></p>
+                        </div>
+                        </div>
+                </div>
+        </div>
+
+        <div class="d1 col" id="dd2">
+                <center><h1>Details:</h1></center>
+            <div class="container" >
+            <form>
+                     <div class="form-group">
+                         <span>
+                             <label class="l1">First Name</label>
+                             <input type="text" class="form-control" placeholder="First Name" class="i1">
+                         </span>
+                         <span>
+                             <label class="l1">Last Name</label>
+                             <input type="text" class="form-control" placeholder="Last Name" id="i2">
+                         </span>
+                   </div>
+               <div class="form-group">
+                 <label id="l3">Country</label>
+                 <input type="text" class="form-control" placeholder="Country" id="i3">
+               </div>
+               <div class="form-group">
+                 <fieldset>
+                     <label id="l3">Gender</label><br>
+                     <label>Male</label>
+                     <input type="radio" name="gender" value="male" >
+                     <label>female</label>
+                     <input type="radio" name="gender" value="female">
+                     <label>others</label>
+                     <input type="radio" name="gender" value="others">
+                 </fieldset>
+               </div>
+               <div class="form-group">
+                 <label>Upload your resume</label>
+                 <input type="file" class="form-control">
+               </div>
+               <div class="form-group form-check">
+                 <label class="form-check-label">
+                   <input class="form-check-input" type="checkbox"> Remember me
+                 </label>
+               </div>
+                 <button type="submit" class="btn btn-primary bg-success"><a href="saveReport.html"  style="color: white;">Save</a></button>
+               <button type="submit" class="btn btn-primary bg-danger">Edit</button>
+            </form>
+            </div>
+        </div>
+        </div>
+       </div>
+       <div id="d1">
+        <footer class="bg-light text-center text-lg-start bg-dark"  >
+          <br>
+          <div class="text-center p-3 text-light" >
+            © 2021 Copyright:
+            <a class="text-light" href="https://www.infinite.com/">Infinite Computer Solution India Ltd</a>
+            <div>
+                <a href="https://twitter.com/infinite_ics?lang=en" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="https://www.linkedin.com/company/infinite-computer-solutions/" class="fa fa-linkedin"></a>
+                <a href="https://www.youtube.com/channel/UCnWVzeDYIJ-xtZG64-DqQ6g?view_as=subscriber" class="fa fa-youtube"></a>
+                <a href="https://www.facebook.com/infinitecomputersolutions" class="fa fa-facebook"></a>  
+            </div>
+           
+        </div>
+        </footer>
+      </div>
+
+    </body>
+
+</html>

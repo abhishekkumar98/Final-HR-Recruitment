@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-color: rgb(201, 198, 198);*/
+    background-image: url("https://hitfigure.com/wp-content/uploads/2012/03/login-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Add padding to containers */
+  #dd2 {
+   
+    width: 500px;
+    height: 500px;
+    
+    border-radius: 2px solid grey;
+    background-position: center;
+    padding-top: 10px;
+    margin-left: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 30px;
+    color: darkolivegreen;
+    
+    
+    background-color: rgb(226, 221, 221);
+  }
+  #btn1{
+    background-color: rgb(115, 115, 128);
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 4px 4px;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit button */
+  .loginbtn {
+    background-color: rgb(115, 115, 128);
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  #d1{
+      width: 100%;
+      height: 100%;
+      margin-left:0px;
+      margin-right:0px;
+    }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
